@@ -1,6 +1,6 @@
-# Stripe Firebase App
+# Stripe Firebase Demo App
 
-This is a NextJS app that integrates Firebase with Stripe payments (for monthly subscriptions). To try it out, install all the dependencies:
+This is a NextJS app that integrates Firebase with Stripe payments (for monthly subscriptions demo). To try it out, install all the dependencies:
 
 ```bash
 yarn install
