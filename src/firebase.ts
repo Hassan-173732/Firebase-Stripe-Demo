@@ -5,17 +5,17 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDOgRIYUtMK6RbGC02S8xVEIzp4Gff9rLw",
-  authDomain: "px-stripe-app.firebaseapp.com",
-  projectId: "px-stripe-app",
-  storageBucket: "px-stripe-app.appspot.com",
-  messagingSenderId: "108485792446",
-  appId: "1:108485792446:web:bea0c8af706f00835684ef",
+  apiKey: "AIzaSyB-L-nBSQa03D-tzNU9FvvgAx8VMbLG-4g",
+  authDomain: "stripe-subscriptions-2e77d.firebaseapp.com",
+  projectId: "stripe-subscriptions-2e77d",
+  storageBucket: "stripe-subscriptions-2e77d.appspot.com",
+  messagingSenderId: "465407925299",
+  appId: "1:465407925299:web:a96b4f9cec4b75abe95746"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export const initFirebase = () => {
+export const initFirebase = () => { 
   return app;
-};
+}

@@ -29,7 +29,7 @@ export default function AccountPage() {
   }, [app, auth.currentUser?.uid]);
 
   const upgradeToPremium = async () => {
-    const priceId = "price_1NUpxHD5YcGkKBRllLMVnimV";
+    const priceId = "price_1OYV7yDqnHv1iyyjkpUMuBqd";
     const checkoutUrl = await getCheckoutUrl(app, priceId);
     router.push(checkoutUrl);
     console.log("Upgrade to Premium");
